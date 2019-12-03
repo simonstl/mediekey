@@ -18,3 +18,7 @@ I went looking for a QWERTY keyboard that supported a lot of additional characte
 My failure worked out great, though. Eventually I found the [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) 1.4 (MKLC), an old and dusty piece of software that wants a specific version of .NET to run.  It was reasonably self-explanatory, though, and I cobbled together a first workable version of a layout. The layout files are reasonably simple, but every time I want to make a change, I get to remove the old layout in settings, run the old installer to remove it, create a new installer from MKLC, and install that. 
 
 It's clunky, but it's still an improvement.  The results are much more flexible than just installing the Candian French layout, letting me set dead keys and extend the capabilities of the keyboard.
+
+# Note on the .KLC format
+
+GitHub treats the .KLC file as binary, I think because it's a UTF-16LE file.  That means it's text, but expressed somewhat more verbosely than the usual UTF-8. If you edit the file in GitHub, it will save it as UTF-8. In my experiments MKLC will still open a file saved as UTF-8, but will save it back out as UTF-16LE.  This probably only matters if you want to edit the file directly with an old text editor, but even a recent version of Notepad was able to open and explore it.
