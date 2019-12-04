@@ -17,7 +17,7 @@ I went looking for a QWERTY keyboard that supported a lot of additional characte
 
 My failure worked out great, though. Eventually I found the [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) 1.4 (MKLC), an old and dusty piece of software that wants a specific version of .NET to run.  It was reasonably self-explanatory, though, and I cobbled together a first workable version of a layout. The layout files are reasonably simple, but every time I want to make a change, I get to remove the old layout in settings, run the old installer to remove it, create a new installer from MKLC, and install that. 
 
-It's clunky, but it's still an improvement.  The results are much more flexible than just installing the Candian French layout, letting me set dead keys and extend the capabilities of the keyboard.
+It's clunky, but it's still an improvement.  The results are much more flexible than just installing the Candian French layout, letting me set dead keys and extend the capabilities of the keyboard. (In my perfect world, using Unicode combining characters would be easy and well-supported, but I don't see that happening soon.)
 
 # Note on the .KLC format
 
