@@ -5,7 +5,7 @@ If you're used to English-language keyboards but need to enter texts with lots o
 
 I believe this layout supports all the characters printed on the keyboard, plus a variety of additional characters hiding behind AltGr. Most of them are pharmacy or German letter-combinations used in the old varnish cookbooks I've been typing in. 
 
-The key file you need from this project is [HpSK806a.klc](https://github.com/simonstl/mediekey/blob/master/HpSK806a.klc).  This contains the information MKLC needs to let you edit the layout or compile an installer that will let you use the layout.  
+The key file you need from this project is [HpSK806a.klc](https://github.com/simonstl/mediekey/blob/master/HpSK806a.klc).  This contains the information MKLC needs to let you edit the layout or compile an installer that will let you use the layout. [Installation instructions cover the many steps needed](https://github.com/simonstl/mediekey/wiki/Installing-the-Mediekey-layout).
 
 This project is licensed under the [Hippocratic License](https://firstdonoharm.dev/). Please [use it for good](http://simonstl.com/random/2013/06/code_like_youre_writing.html).
 
