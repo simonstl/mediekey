@@ -1,9 +1,9 @@
 # mediekey
 # Windows keyboard layout extending Canadian French, for entering old books 
 
-If you're used to English-language keyboards but need to enter texts with lots of foreign characters, Mediekey plus a $20 [HP French-Canadian SK806a keyboard](https://www.newegg.com/p/0GA-0012-006F5?Item=9SIAJCJ8HH2056) or $24 [Dell KB216T C36YV](https://www.newegg.com/p/0GA-002N-005Y7). You'll also need the (free but not open source) [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) 1.4 (MKLC).  Mediekey provides a Windows keyboard layout for the Canadian French layout that you can compile and install as part of Français (Canada) language support.
+If you're used to English-language keyboards but need to enter texts with lots of foreign characters, Mediekey plus a $20 [HP French-Canadian SK806a keyboard](https://www.newegg.com/p/0GA-0012-006F5?Item=9SIAJCJ8HH2056) or $24 [Dell KB216T C36YV](https://www.newegg.com/p/0GA-002N-005Y7) can help you out. You'll also need the (free but not open source) [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) 1.4 (MKLC).  Mediekey provides a Windows keyboard layout for the Canadian French layout that you can compile and install as part of Français (Canada) language support.  (Unless you have Windows 10 Home Single Language Edition, in which case you have to upgrade to Windows 10 Home or Windows 10 Pro first.)
 
-I believe this layout supports all the characters printed on the keyboard, plus a variety of additional characters hiding behind AltGr. Most of them are pharmacy or German letter-combinations used in the old varnish cookbooks I've been typing in. (Oops.  I still have to add support for the macron and macron below.)
+I believe this layout supports all the characters printed on the keyboard, plus a variety of additional characters hiding behind AltGr. Most of them are pharmacy or German letter-combinations used in the old varnish cookbooks I've been typing in. 
 
 The key file you need from this project is [HpSK806a.klc](https://github.com/simonstl/mediekey/blob/master/HpSK806a.klc).  This contains the information MKLC needs to let you edit the layout or compile an installer that will let you use the layout.  
 
@@ -17,7 +17,7 @@ I went looking for a QWERTY keyboard that supported a lot of additional characte
 
 My failure worked out great, though. Eventually I found the [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) 1.4 (MKLC), an old and dusty piece of software that wants a specific version of .NET to run.  It was reasonably self-explanatory, though, and I cobbled together a first workable version of a layout. The layout files are reasonably simple, but every time I want to make a change, I get to remove the old layout in settings, run the old installer to remove it, create a new installer from MKLC, and install that. 
 
-It's clunky, but it's still an improvement.  The results are much more flexible than just installing the Candian French layout, letting me set dead keys and extend the capabilities of the keyboard. (In my perfect world, using Unicode combining characters would be easy and well-supported, but I don't see that happening soon.)
+It's clunky, but it's still an improvement.  The results are much more flexible than just installing the Canadian French layout, letting me set dead keys and extend the capabilities of the keyboard. (In my perfect world, using Unicode combining characters would be easy and well-supported, but I don't see that happening soon.)
 
 # Note on the .KLC format
 
