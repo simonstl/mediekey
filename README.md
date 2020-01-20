@@ -5,7 +5,7 @@ If you're used to English-language keyboards but need to enter texts with lots o
 
 If you just need to enter modern documents with more characters than are easily entered with US keyboards, you can just attach the keyboard, specify to your computer that it's a Canadian French keyboard, and you'll be set to go.  If you need more characters than that supports, however, read on!
 
-The quickest place to see what Mediekey adds is the AltGr display.
+The quickest place to see what Mediekey adds is the AltGr display.  These are the characters you get while holding AltGr (or Ctrl-Alt) and another key.  It also let you create many more composed characters using this keyboard's excellent range of diacritical marks.
 
 ![keyboard sample with AltGr](https://raw.githubusercontent.com/wiki/simonstl/mediekey/images/g012020AltGr.png)
 
