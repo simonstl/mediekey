@@ -5,6 +5,12 @@ If you're used to English-language keyboards but need to enter texts with lots o
 
 If you just need to enter modern documents with more characters than are easily entered with US keyboards, you can just attach the keyboard, specify to your computer that it's a Canadian French keyboard, and you'll be set to go.  If you need more characters than that supports, however, read on!
 
+The quickest place to see what Mediekey adds is the AltGr display.
+
+![keyboard sample with AltGr](https://raw.githubusercontent.com/wiki/simonstl/mediekey/images/g012020AltGr.png)
+
+The [wiki homepage](https://github.com/simonstl/mediekey/wiki) shows a more complete set, or you can open the [HpSK806a.klc](https://github.com/simonstl/mediekey/blob/master/HpSK806a.klc) file directly in a text editor and read the listings.
+
 To work with Mediekey, you'll also need the (free but not open source) [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) 1.4 (MKLC).  Mediekey provides a Windows keyboard layout for the Canadian French layout that you can compile and install as part of Français (Canada) language support.  (Unless you have Windows 10 Home Single Language Edition set to a different language, in which case you have to upgrade to Windows 10 Home or Windows 10 Pro first.)
 
 I believe this layout supports all the characters printed on the keyboard, plus a variety of additional characters hiding behind AltGr. Most of them are pharmacy or German letter-combinations used in the old varnish cookbooks I've been typing in. For this first round, I'm using dead keys to create composed characters, including many that are unusual in current Latin alphabet use, but I may also do another version that uses Unicode combining characters.  (That will provide vastly more flexibility and be easier to maintain, but will create issues with some kinds of software.)
