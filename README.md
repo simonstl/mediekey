@@ -5,11 +5,30 @@ If you're used to English-language keyboards but need to enter texts with lots o
 
 If you just need to enter modern documents with more characters than are easily entered with US keyboards, you can just attach the keyboard, specify to your computer that it's a Canadian French keyboard, and you'll be set to go.  If you need more characters than that supports, however, read on!
 
-The quickest place to see what Mediekey adds is the AltGr display.  These are the characters you get while holding AltGr (also known as the Alt key to the right of the space bar, or Ctrl-Alt) and another key.  It also let you create many more composed characters using this keyboard's wide range of diacritical marks.
+The quickest place to see what Mediekey adds is the AltGr display.  These are the characters you get while holding AltGr and another key. (AltGr is also known as the Alt key to the right of the space bar, or Ctrl+Alt.) It also lets you create many more composed characters using this keyboard's wide range of diacritical marks.
 
 ![keyboard sample with AltGr](https://raw.githubusercontent.com/wiki/simonstl/mediekey/images/g012020AltGr.png)
 
-The [wiki homepage](https://github.com/simonstl/mediekey/wiki) shows a more complete set, or you can open the [HpSK806a.klc](https://github.com/simonstl/mediekey/blob/master/HpSK806a.klc) file directly in a text editor and read the listings.
+The [wiki homepage](https://github.com/simonstl/mediekey/wiki) shows a more complete set, or you can open the [HpSK806a.klc](https://github.com/simonstl/mediekey/blob/master/HpSK806a.klc) file directly in a text editor and read the listings.  That lets you see things like:
+
+```1e	A		5	a	A	-1	00e6	00c6		// LATIN SMALL LETTER A, LATIN CAPITAL LETTER A, <none>, LATIN SMALL LETTER AE (ash) *, LATIN CAPITAL LETTER AE (ash) *
+1f	S		1	s	S	-1	00df	1e9e		// LATIN SMALL LETTER S, LATIN CAPITAL LETTER S, <none>, LATIN SMALL LETTER SHARP S (German), Latin Capital Letter Sharp S
+20	D		1	d	D	-1	00f7	-1		// LATIN SMALL LETTER D, LATIN CAPITAL LETTER D, <none>, DIVISION SIGN, <none>```
+
+or, for keys that combine,
+
+```DEADKEY	00af
+
+0061	0101	// a -> ā
+00e6	01e3	// æ -> ǣ
+00c6	01e2	// Æ -> Ǣ
+0041	0100	// A -> Ā
+0045	0112	// E -> Ē
+0065	0113	// e -> ē
+0047	1e20	// G -> Ḡ
+0067	1e21	// g -> ḡ
+0049	012a	// I -> Ī```
+
 
 To work with Mediekey, you'll also need the (free but not open source) [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) 1.4 (MKLC).  Mediekey provides a Windows keyboard layout for the Canadian French layout that you can compile and install as part of Français (Canada) language support.  (Unless you have Windows 10 Home Single Language Edition set to a different language, in which case you have to upgrade to Windows 10 Home or Windows 10 Pro first.)
 
