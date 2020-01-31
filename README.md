@@ -3,7 +3,7 @@
 
 If you're used to English-language keyboards but need to enter texts with lots of foreign characters, Mediekey plus a $20 [HP French-Canadian SK806a keyboard](https://www.newegg.com/p/0GA-0012-006F5?Item=9SIAJCJ8HH2056) or $24 [Dell KB216T C36YV](https://www.newegg.com/p/0GA-002N-005Y7) can help you out. On the fancier side, the [WASD V3 105-Key ISO Custom Mechanical Keyboard](https://www.wasdkeyboards.com/wasd-v3-105-key-iso-custom-mechanical-keyboard.html) is available in Canadian French and fits. (Any 105-key ISO keyboard could work, but the markings will vary.)
 
-If you just need to enter modern documents with more characters than are easily entered with US keyboards, you can just attach the keyboard, specify to your computer that it's a Canadian French keyboard, and you'll be set to go.  If you need more characters than that supports, however, read on!
+If you just need to enter modern documents with more characters than are easily entered with US keyboards, you can just attach the keyboard, [specify to your computer that it's a Canadian French keyboard](https://github.com/simonstl/mediekey/wiki/Installing-the-Canadian-French-layout), and you'll be set to go.  If you need more characters than that supports, however, read on!
 
 The quickest place to see what Mediekey adds is the AltGr display.  These are the characters you get while holding AltGr and another key. (AltGr is also known as the Alt key to the right of the space bar, or Ctrl+Alt.) It also lets you create many more composed characters using this keyboard's wide range of diacritical marks.
 
