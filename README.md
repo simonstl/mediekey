@@ -34,7 +34,7 @@ DEADKEY	00af
 ```
 
 
-To work with Mediekey, you'll also need the (free but not open source) [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) 1.4 (MKLC).  Mediekey provides a Windows keyboard layout for the Canadian French layout that you can compile and install as part of Français (Canada) language support.  (Unless you have Windows 10 Home Single Language Edition set to a different language, in which case you have to upgrade to Windows 10 Home or Windows 10 Pro first.)
+To work with Mediekey, you'll also need the (free but not open source) [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134) 1.4 (MKLC).  Mediekey provides a Windows keyboard layout for the Canadian French layout that you can compile and install as part of Français (Canada) language support.  (Unless you have Windows 10 Home Single Language Edition set to a different language, in which case you have to upgrade to Windows 10 Home or Windows 10 Pro first.)
 
 I believe this layout supports all the characters printed on the keyboard, plus a variety of additional characters hiding behind AltGr. Most of them are pharmacy or German letter-combinations used in the old varnish cookbooks I've been typing in. For this first round, I'm using dead keys to create composed characters, including many that are unusual in current Latin alphabet use, but I may also do another version that uses Unicode combining characters.  (That will provide vastly more flexibility and be easier to maintain, but will create issues with some kinds of software.)
 
